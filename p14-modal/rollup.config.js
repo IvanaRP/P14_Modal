@@ -4,7 +4,6 @@ import external from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
 import commonjs from "@rollup/plugin-commonjs";
 
-/* eslint import/no-anonymous-default-export: [2, {"allowArray": true}] */
 export default [
   {
     input: "./src/index.js",
