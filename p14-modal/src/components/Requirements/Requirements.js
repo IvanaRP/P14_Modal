@@ -21,7 +21,7 @@ export const Requirements = ({ text, setShow }) => {
 
 Requirements.propTypes = {
   text: PropTypes.string,
-  setshow: PropTypes.func,
+  setshow: PropTypes.bool,
 };
 
 Requirements.defaultProps = {
